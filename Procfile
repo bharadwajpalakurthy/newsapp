@@ -1,1 +1,1 @@
-web: gunicorn sail.wsgi
+web: gunicorn newsapp.wsgi --log-file
